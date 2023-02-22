@@ -27,6 +27,8 @@ public class SimpleFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
+// static menggunakan fragment di xml, dynamic menggunakan FrameLayout, Dynamic menggunakan wadah kemudian akan diisi.
+// Kalau makai fragmen dinamis itu kalau hilang artinya benar benar hilang. Kalau static di hide itu artinya hanya hilang tampilan tapi tetap masih memakan memori.
 
         }
     }
