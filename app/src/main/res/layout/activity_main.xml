@@ -60,6 +60,7 @@ tools:context=".MainActivity">
     <fragment
         android:id="@+id/fragment"
         android:layout_width="0dp"
+        android:name="com.example.fragmentexample1updated.SimpleFragment"
         android:layout_height="wrap_content"
         tools:layout="@layout/fragment_simple"
         app:layout_constraintEnd_toEndOf="parent"
