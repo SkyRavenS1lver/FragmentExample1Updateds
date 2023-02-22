@@ -10,5 +10,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+//        satu act bisa menampung beberapa fragment, kalau act tidak bisa masuk ke act lain, tapi frag bisa masuk ke act lain.
+
     }
 }
